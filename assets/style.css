@@ -3,6 +3,8 @@ html body {
     padding: 0;
     font-family: Roboto;
     font-weight: normal;
+    background-color: #FFFFFF;
+    color: #454545;
 }
 
 h1 {
@@ -17,6 +19,11 @@ h1.huge {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+div#content section h2.div {
+    color: #343434;
+    text-align: center;
 }
 
 h2 em.link {
@@ -34,6 +41,10 @@ h2 a.link {
     color: #171e25;
 }
 
+.text-large {
+    font-size: 1.25em;
+}
+
 div#nav {
     background-color: #343434;
 }
@@ -43,28 +54,59 @@ nav {
     padding: 0.5em 0;
 }
 
+nav a.button {}
+
 section {
-    padding: 4em 0;
+    padding: 2em 0;
 }
 
-div#header {
-    background: url('iot.png') no-repeat right top;
-    background-size: cover;
+div#main {
+    background-color: #88D4D4;
+    border-bottom: 2px solid #F9D773;
 }
 
-div#header section {}
+div#main .container {
+    background: url('iot.png') no-repeat right -150px;
+    padding-bottom: 10rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
 
-div#header section h1 {
+div#main section {}
+
+div#main section h1 {
     color: #ffffff;
     text-shadow: rgba(0, 0, 0, 0.25) 3px 3px 3px;
 }
 
-div#header section h2 {
+div#main section h2 {
     color: #ffffff;
     text-shadow: rgba(0, 0, 0, 0.25) 3px 3px 3px;
     opacity: 0.9;
 }
 
+a.registration.button {
+    margin: 5rem 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    height: 6.2rem;
+    letter-spacing: .1rem;
+    line-height: 6.2rem;
+    padding: 0 3.0rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+a.registration.button:hover,
+a.registration.button:focus {
+    outline: 0;
+}
 
 div#footer section {
     text-align: center;
@@ -86,12 +128,21 @@ div#footer section ul li a {
     text-decoration: underline;
 }
 
-img#logo {
-    max-width: 66%;
-    margin-top: -9.2rem;
+div.speaker {
+    float: left;
+    width: 50%;
+    padding-bottom: 2em;
 }
 
-iframe {
-    border: 5px solid #fff;
-    margin: 1em auto;
+div.speaker img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #CCCCCC;
+    background-color: #EEEEEE;
+    margin-right: 2em;
+    float: left
+}
+
+div.speaker h1 {
+    font-size: 2em;
 }
