@@ -31,9 +31,9 @@
     input[type='button'],
     input[type='reset'],
     input[type='submit'] {
-        border: 0.1rem solid #88D4D4;
+        border: 0.1rem solid #F9D773;
         border-radius: .4rem;
-        color: #88D4D4;
+        color: #F9D773;
         cursor: pointer;
         display: inline-block;
         font-size: 1.3rem;
@@ -58,9 +58,9 @@
     input[type='reset']:hover,
     input[type='submit']:focus,
     input[type='submit']:hover {
-        background-color: #88D4D4;
-        border-color: #88D4D4;
-        color: #fff;
+        background-color: #F9D773;
+        border-color: #F9D773;
+        color: #171e25;
         outline: 0;
     }
 
