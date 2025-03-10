@@ -105,6 +105,10 @@ section#sponsors {
     border-top: 2px solid #efefef
 }
 
+section#schedule {
+    border-top: 2px solid #efefef
+}
+
 a.registration.button {
     margin: 5rem 0;
     border: 1px solid #149fb1;
