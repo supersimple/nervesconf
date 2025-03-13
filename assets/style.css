@@ -173,9 +173,12 @@ footer section ul li a {
 }
 
 div.speaker {
-    float: left;
-    width: 50%;
     padding-bottom: 2em;
+}
+
+div.title {
+    font-size: 0.8em;
+    margin-bottom: 1.5em;
 }
 
 div.speaker img {
@@ -189,6 +192,11 @@ div.speaker img {
 
 div.speaker h1 {
     font-size: 2em;
+}
+
+div.speaker h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .sponsor-logos{
