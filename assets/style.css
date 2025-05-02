@@ -223,6 +223,25 @@ div.speaker h2 {
     text-align: center;
 }
 
+div.schedule-table {
+    font-size: 18px;
+}
+
+div.schedule-table table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.schedule-table table td {
+    padding: 4px 12px;
+    vertical-align: top;
+    text-align: left;
+}
+
+div.schedule-table table td.center {
+    text-align: center;
+}
+
 @media screen and (max-width: 640px) {
 
     div#main section h1 {
